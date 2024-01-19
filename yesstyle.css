@@ -1,0 +1,17 @@
+body {
+    background-color: #cd5b92;
+    background-image: url(thankyou.mp4);
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.question {
+    position: absolute;
+    bottom: 20px; 
+    left: 0;
+    right: 0; 
+    margin: auto;
+    max-width: 500px;
+    padding: 50px;   
+    text-align: center; 
+}

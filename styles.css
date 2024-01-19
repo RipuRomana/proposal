@@ -1,0 +1,32 @@
+body {
+    background-color: #cd5b92;
+    background-image: url(sparkles.mp4);
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.question {
+    position: absolute;
+    bottom: 20px; 
+    left: 0;
+    right: 0; 
+    margin: auto;
+    max-width: 500px;
+    padding: 50px;   
+    text-align: center; 
+}
+
+button {
+    position: absolute;
+    margin: 0 10px; /* Adjust the margin to bring the buttons closer together */
+}
+
+button:first-child {
+    left: 50%; /* Center "Yes" */
+    transform: translateX(50%); /* Adjust for centering */
+}
+
+button:last-child {
+    right: 50%; /* Center "No" */
+    transform: translateX(-50%); /* Adjust for centering */
+}
